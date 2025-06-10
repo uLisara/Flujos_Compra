@@ -57,5 +57,8 @@ public class HomeSteps {
 
     @And("agrega el producto al carrito")
     public void agregaElProductoAlCarrito() {
+            System.out.println("🛒 Entró al step de agregar producto al carrito");
+            productListPage.agregarProductosAleatoriosHasta50YUnoExtra();
+
     }
 }
